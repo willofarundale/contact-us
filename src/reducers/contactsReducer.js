@@ -7,7 +7,7 @@ const contactsReducer = (state = defaultState, action) => {
         case "ADD_CONTACT":
             return {
                 ...state,
-                contacts : action.payload
+                contacts : [...state.contacts, action.payload]
             }
 
         default:

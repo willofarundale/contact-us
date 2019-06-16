@@ -20,3 +20,5 @@ Within the api directory:
 ```python
 npm start # Launches the local server http://localhost:3001
 ```
+
+User can check that the form has been successfully submitted by either checking the file db.json within the api directory or by inspecting network requests within browser dev-tools.
